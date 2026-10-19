@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/aethelacli/install", "destination": "/aethelacli/install.sh" }
+  ],
+  "headers": [
+    {
+      "source": "/aethelacli/install",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/aethelacli/install.sh",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
+    {
+      "source": "/aethelacli/install.ps1",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    }
+  ]
+}
